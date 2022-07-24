@@ -16,6 +16,7 @@ repositories {
 }
 
 dependencies {
+    implementation ("io.netty:netty-resolver-dns-native-macos:4.1.77.Final:osx-aarch_64")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
